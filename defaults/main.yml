@@ -1,0 +1,4 @@
+---
+slack_dry_run: no
+slack_domain: "telusdigital.slack.com"
+slack_channel: "{{ project }}-ops"
