@@ -4,7 +4,7 @@
     domain: "{{ slack_domain }}"
     channel: "{{ slack_channel }}"
     token: "{{ slack_token | mandatory }}"
-    msg: "Playbook run against {{ environment_tier }}"
+    msg: "Playbook run against {{ project }}/{{ environment_tier }}"
   when: "not {{ slack_dry_run }}"
   tags:
     - slack
