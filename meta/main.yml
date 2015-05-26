@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: "Steven Harradine"
+  categories:
+    - development
+  company: "TELUS digital"
+  description: "Send slack notifications from playbooks."
+  license: MIT
+  min_ansible_version: 1.6
+  platforms:
+    - name: Ubuntu
+      versions:
+        - lucid
+        - precise
+        - trusty
+        - utopic
+
